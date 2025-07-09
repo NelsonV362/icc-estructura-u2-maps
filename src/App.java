@@ -1,5 +1,4 @@
 import controllers.Ejercicios;
-import controllers.EmpleadoContoller;
 import controllers.Mapa;
 
 import models.Empleado;
@@ -8,7 +7,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         System.out.println("----Practica Mapas----");
-        System.out.println("Nombre: Juan Perez"); /// Cambiar por su nombre
+        System.out.println("Nombre: JNelson Villalta"); /// Cambiar por su nombre
         // Ejecuta el ejemplo de uso de HashMap con ejemplos sencillos
         runMapExamlpe();
 

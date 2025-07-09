@@ -1,10 +1,8 @@
 package controllers;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Set;
 import java.util.TreeMap;
 
 import models.Empleado;
@@ -22,13 +20,10 @@ public class Mapa {
         mapa.put("003", "PC");
 
 
-    // Imprimir el mapa completo
     System.out.println(mapa);
 
-    // Imprimir solo las claves
     System.out.println(mapa.keySet());
 
-    // Recorrer el mapa e imprimir los valores con las claves
     for (String key : mapa.keySet()) {
         System.out.println("Clave: " + key + " - Valor: " + mapa.get(key));
     }
@@ -57,7 +52,7 @@ public class Mapa {
     public void runTreeMap() {
         Map<Integer, String> items = new TreeMap();
         items.put(3, "carro");
-    }/* */
+    }
 
     public void runHashMapObj() {
     Map<Empleado, Integer> empleados = new HashMap<>();
@@ -87,7 +82,6 @@ public void runTreeMapObj() {
         System.out.println(entry.getKey() + " - Salario: " + entry.getValue());
     }
 }
-
 
 
 
